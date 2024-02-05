@@ -4,19 +4,22 @@
   >
     <div class="mr-auto place-self-center lg:col-span-7">
       <h1
-        class="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white"
+        class="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-text"
+        data-aos="zoom-in"
       >
         The only mod you'll ever need
       </h1>
       <p
-        class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400"
+        class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-text"
+        data-aos="zoom-in"
       >
         Ares Client is a Minecraft mod that adds several pvp and quality of life
         features to the game, all while being lightweight and easy to use.
       </p>
       <a
         href="/#features"
-        class="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900"
+        class="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-text rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900"
+        data-aos="zoom-in"
       >
         Read more
         <svg
@@ -33,12 +36,13 @@
       </a>
       <a
         href="/download"
-        class="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-gray-900 border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
+        class="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-text border border-primary rounded-lg hover:bg-text focus:ring-4 focus:ring-text dark:text-text dark:border-secondary dark:hover:bg-secondary dark:focus:ring-accent"
+        data-aos="zoom-in"
       >
         Download
       </a>
     </div>
-    <div class="hidden lg:mt-0 lg:col-span-5 lg:flex">
+    <div class="hidden lg:mt-0 lg:col-span-5 lg:flex" data-aos="zoom-in">
       <img src="skin.png" alt="mockup" />
     </div>
   </div>

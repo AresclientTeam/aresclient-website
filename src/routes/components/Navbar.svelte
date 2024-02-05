@@ -6,11 +6,7 @@
       href="https://flowbite.com/"
       class="flex items-center space-x-3 rtl:space-x-reverse"
     >
-      <img src="logo_white.png" class="h-8" alt="Flowbite Logo" />
-      <span
-        class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"
-        >Ares</span
-      >
+      <img src="banner.png" class="h-8" alt="Flowbite Logo" />
     </a>
     <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
       <button
@@ -53,28 +49,28 @@
         <li>
           <a
             href="#"
-            class="block py-2 px-3 md:p-0 text-white bg-background rounded md:bg-transparent md:text-accent md:dark:text-accent"
+            class="block py-2 px-3 md:p-0 text-text bg-background rounded md:bg-transparent md:text-accent md:dark:text-accent"
             aria-current="page">Home</a
           >
         </li>
         <li>
           <a
             href="#"
-            class="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-accent md:dark:hover:text-accent dark:text-white dark:hover:bg-background dark:hover:text-white md:dark:hover:bg-transparent dark:border-background"
+            class="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-accent md:dark:hover:text-accent dark:text-text dark:hover:bg-background dark:hover:text-text md:dark:hover:bg-transparent dark:border-background"
             >About</a
           >
         </li>
         <li>
           <a
             href="#"
-            class="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-accent md:dark:hover:text-accent dark:text-white dark:hover:bg-background dark:hover:text-white md:dark:hover:bg-transparent dark:border-background"
+            class="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-accent md:dark:hover:text-accent dark:text-text dark:hover:bg-background dark:hover:text-text md:dark:hover:bg-transparent dark:border-background"
             >Services</a
           >
         </li>
         <li>
           <a
             href="#"
-            class="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-accent md:dark:hover:text-accent dark:text-white dark:hover:bg-background dark:hover:text-white md:dark:hover:bg-transparent dark:border-background"
+            class="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-accent md:dark:hover:text-accent dark:text-text dark:hover:bg-background dark:hover:text-text md:dark:hover:bg-transparent dark:border-background"
             >Contact</a
           >
         </li>

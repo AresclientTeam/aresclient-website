@@ -13,9 +13,9 @@ const config = {
       colors: {
         text: "#e3e3e8",
         background: "#151516",
-        primary: "#5f5ff0",
-        secondary: "#8a4491",
-        accent: "#ff43f8",
+        primary: "#919191",
+        secondary: "#3a3a3a",
+        accent: "#bbbbbb",
       },
 
       fontFamily: {

@@ -2,7 +2,7 @@
   <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
     <div class="max-w-screen-md mb-8 lg:mb-16">
       <h2
-        class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white"
+        class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-text"
       >
         Features
       </h2>
@@ -30,7 +30,7 @@
             ></path></svg
           >
         </div>
-        <h3 class="mb-2 text-xl font-bold dark:text-white">Marketing</h3>
+        <h3 class="mb-2 text-xl font-bold dark:text-text">Marketing</h3>
         <p class="text-gray-500 dark:text-gray-400">
           Plan it, create it, launch it. Collaborate seamlessly with all the
           organization and hit your marketing goals every month with our
@@ -51,7 +51,7 @@
             ></path></svg
           >
         </div>
-        <h3 class="mb-2 text-xl font-bold dark:text-white">Legal</h3>
+        <h3 class="mb-2 text-xl font-bold dark:text-text">Legal</h3>
         <p class="text-gray-500 dark:text-gray-400">
           Protect your organization, devices and stay compliant with our
           structured workflows and custom permissions made for you.
@@ -75,7 +75,7 @@
             ></path></svg
           >
         </div>
-        <h3 class="mb-2 text-xl font-bold dark:text-white">
+        <h3 class="mb-2 text-xl font-bold dark:text-text">
           Business Automation
         </h3>
         <p class="text-gray-500 dark:text-gray-400">
@@ -101,7 +101,7 @@
             ></path></svg
           >
         </div>
-        <h3 class="mb-2 text-xl font-bold dark:text-white">Finance</h3>
+        <h3 class="mb-2 text-xl font-bold dark:text-text">Finance</h3>
         <p class="text-gray-500 dark:text-gray-400">
           Audit-proof software built for critical financial operations like
           month-end close and quarterly budgeting.
@@ -121,9 +121,7 @@
             ></path></svg
           >
         </div>
-        <h3 class="mb-2 text-xl font-bold dark:text-white">
-          Enterprise Design
-        </h3>
+        <h3 class="mb-2 text-xl font-bold dark:text-text">Enterprise Design</h3>
         <p class="text-gray-500 dark:text-gray-400">
           Craft beautiful, delightful experiences for both marketing and product
           with real cross-company collaboration.
@@ -145,7 +143,7 @@
             ></path></svg
           >
         </div>
-        <h3 class="mb-2 text-xl font-bold dark:text-white">Operations</h3>
+        <h3 class="mb-2 text-xl font-bold dark:text-text">Operations</h3>
         <p class="text-gray-500 dark:text-gray-400">
           Keep your company’s lights on with customizable, iterative, and
           structured workflows built for all efficient teams and individual.
