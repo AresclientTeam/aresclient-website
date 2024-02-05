@@ -1,3 +1,7 @@
+<script>
+  import ThemeSwitch from "./ThemeSwitch.svelte";
+</script>
+
 <nav class="bg-white border-background dark:bg-background">
   <div
     class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4"
@@ -6,14 +10,20 @@
       href="https://flowbite.com/"
       class="flex items-center space-x-3 rtl:space-x-reverse"
     >
-      <img src="banner.png" class="h-8" alt="Flowbite Logo" />
+      <img src="logo_white.png" class="h-8" alt="Flowbite Logo" />
+      <span
+        class="text-xl font-bold tracking-tight text-gray-900 dark:text-text"
+        >Ares</span
+      >
     </a>
     <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
       <button
         type="button"
-        class="text-text bg-secondary hover:bg-accent ease-in-out transition-all focus:ring-4 focus:outline-none focus:accent font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-background-600 dark:hover:bg-background-700 dark:focus:accent"
+        class="sm:visible invisible text-text bg-secondary hover:bg-accent ease-in-out transition-all focus:ring-4 focus:outline-none focus:accent font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-background-600 dark:hover:bg-background-700 dark:focus:accent"
         >Download</button
       >
+      <ThemeSwitch />
+
       <button
         data-collapse-toggle="navbar-cta"
         type="button"
@@ -21,6 +31,8 @@
         aria-controls="navbar-cta"
         aria-expanded="false"
       >
+        <ThemeSwitch />
+
         <span class="sr-only">Open main menu</span>
         <svg
           class="w-5 h-5"
@@ -29,6 +41,8 @@
           fill="none"
           viewBox="0 0 17 14"
         >
+          <ThemeSwitch />
+
           <path
             stroke="currentColor"
             stroke-linecap="round"

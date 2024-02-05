@@ -9,13 +9,16 @@
 <Navbar />
 
 <LearnMore />
+<hr />
 
 <Features />
+
+<hr />
 
 <CardGrid />
 
 <div
-  class="fixed bottom-1 flex justify-center items-center left-[50%] translate-x-[-50%]"
+  class="sm:fixed bottom-1 flex justify-center items-center sm:left-[50%] sm:translate-x-[-50%]"
 >
   <Footer />
 </div>

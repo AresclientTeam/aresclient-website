@@ -26,10 +26,15 @@
   ];
 </script>
 
-<section class="bg-white dark:bg-gray-900 pt-32 flex content-center">
-  <div class="grid grid-cols-5 gap-3">
-    {#each cards as { title, description } (title)}
-      <Card {title} {description} />
-    {/each}
+<section class="bg-white dark:bg-background py-32 flex">
+  <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6 items-center">
+    <div
+      class="grid grid-cols-auto-300 gap-3 content-center"
+      data-aos="zoom-in"
+    >
+      {#each cards as { title, description } (title)}
+        <Card {title} {description} />
+      {/each}
+    </div>
   </div>
 </section>

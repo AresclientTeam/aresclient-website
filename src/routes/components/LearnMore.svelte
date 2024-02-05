@@ -1,4 +1,4 @@
-<section class="bg-white dark:bg-background pt-44">
+<section class="bg-white dark:bg-background py-44">
   <div
     class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12"
   >
@@ -10,7 +10,7 @@
         The only mod you'll ever need
       </h1>
       <p
-        class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-text"
+        class="max-w-2xl mb-6 font-light text-textDark lg:mb-8 md:text-lg lg:text-xl dark:text-text"
         data-aos="zoom-in"
       >
         Ares Client is a Minecraft mod that adds several pvp and quality of life

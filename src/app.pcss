@@ -2,3 +2,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.grid-cols-auto-300 {
+  --column-max-width: 300px;
+  grid-template: auto / repeat(auto-fit, minmax(var(--column-max-width), 1fr));
+}
+
+body {
+  padding-block-end: 2rem;
+  background-color: #151516;
+}

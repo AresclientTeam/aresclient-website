@@ -1,12 +1,13 @@
-<section class="bg-white dark:bg-gray-900 pt-32">
+<section class="bg-white dark:bg-background py-44">
   <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
     <div class="max-w-screen-md mb-8 lg:mb-16">
       <h2
-        class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-text"
+        class="mb-4 text-4xl tracking-tight font-extrabold text-text dark:text-text"
+        data-aos="zoom-in"
       >
         Features
       </h2>
-      <p class="text-gray-500 sm:text-xl dark:text-gray-400">
+      <p class="text-textDark sm:text-xl dark:text-gray-400" data-aos="zoom-in">
         Here at Flowbite we focus on markets where technology, innovation, and
         capital can unlock long-term value and drive economic growth.
       </p>
@@ -17,9 +18,11 @@
       <div>
         <div
           class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900"
+          data-aos="zoom-in"
         >
           <svg
-            class="w-5 h-5 text-primary-600 lg:w-6 lg:h-6 dark:text-primary-300"
+            class="w-5 h-5 text-primary-600 lg:w-6 lg:h-6 dark:text-text"
+            data-aos="zoom-in"
             fill="currentColor"
             viewBox="0 0 20 20"
             xmlns="http://www.w3.org/2000/svg"
@@ -30,8 +33,10 @@
             ></path></svg
           >
         </div>
-        <h3 class="mb-2 text-xl font-bold dark:text-text">Marketing</h3>
-        <p class="text-gray-500 dark:text-gray-400">
+        <h3 class="mb-2 text-xl font-bold dark:text-text" data-aos="zoom-in">
+          Marketing
+        </h3>
+        <p class="text-textDark dark:text-textDark" data-aos="zoom-in">
           Plan it, create it, launch it. Collaborate seamlessly with all the
           organization and hit your marketing goals every month with our
           marketing plan.
@@ -40,9 +45,11 @@
       <div>
         <div
           class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900"
+          data-aos="zoom-in"
         >
           <svg
-            class="w-5 h-5 text-primary-600 lg:w-6 lg:h-6 dark:text-primary-300"
+            class="w-5 h-5 text-primary-600 lg:w-6 lg:h-6 dark:text-text"
+            data-aos="zoom-in"
             fill="currentColor"
             viewBox="0 0 20 20"
             xmlns="http://www.w3.org/2000/svg"
@@ -51,8 +58,10 @@
             ></path></svg
           >
         </div>
-        <h3 class="mb-2 text-xl font-bold dark:text-text">Legal</h3>
-        <p class="text-gray-500 dark:text-gray-400">
+        <h3 class="mb-2 text-xl font-bold dark:text-text" data-aos="zoom-in">
+          Legal
+        </h3>
+        <p class="text-textDark dark:text-textDark" data-aos="zoom-in">
           Protect your organization, devices and stay compliant with our
           structured workflows and custom permissions made for you.
         </p>
@@ -60,9 +69,11 @@
       <div>
         <div
           class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900"
+          data-aos="zoom-in"
         >
           <svg
-            class="w-5 h-5 text-primary-600 lg:w-6 lg:h-6 dark:text-primary-300"
+            class="w-5 h-5 text-primary-600 lg:w-6 lg:h-6 dark:text-text"
+            data-aos="zoom-in"
             fill="currentColor"
             viewBox="0 0 20 20"
             xmlns="http://www.w3.org/2000/svg"
@@ -75,10 +86,10 @@
             ></path></svg
           >
         </div>
-        <h3 class="mb-2 text-xl font-bold dark:text-text">
+        <h3 class="mb-2 text-xl font-bold dark:text-text" data-aos="zoom-in">
           Business Automation
         </h3>
-        <p class="text-gray-500 dark:text-gray-400">
+        <p class="text-textDark dark:text-textDark" data-aos="zoom-in">
           Auto-assign tasks, send Slack messages, and much more. Now power up
           with hundreds of new templates to help you get started.
         </p>
@@ -86,9 +97,11 @@
       <div>
         <div
           class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900"
+          data-aos="zoom-in"
         >
           <svg
-            class="w-5 h-5 text-primary-600 lg:w-6 lg:h-6 dark:text-primary-300"
+            class="w-5 h-5 text-primary-600 lg:w-6 lg:h-6 dark:text-text"
+            data-aos="zoom-in"
             fill="currentColor"
             viewBox="0 0 20 20"
             xmlns="http://www.w3.org/2000/svg"
@@ -101,8 +114,10 @@
             ></path></svg
           >
         </div>
-        <h3 class="mb-2 text-xl font-bold dark:text-text">Finance</h3>
-        <p class="text-gray-500 dark:text-gray-400">
+        <h3 class="mb-2 text-xl font-bold dark:text-text" data-aos="zoom-in">
+          Finance
+        </h3>
+        <p class="text-textDark dark:text-textDark" data-aos="zoom-in">
           Audit-proof software built for critical financial operations like
           month-end close and quarterly budgeting.
         </p>
@@ -110,9 +125,11 @@
       <div>
         <div
           class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900"
+          data-aos="zoom-in"
         >
           <svg
-            class="w-5 h-5 text-primary-600 lg:w-6 lg:h-6 dark:text-primary-300"
+            class="w-5 h-5 text-primary-600 lg:w-6 lg:h-6 dark:text-text"
+            data-aos="zoom-in"
             fill="currentColor"
             viewBox="0 0 20 20"
             xmlns="http://www.w3.org/2000/svg"
@@ -121,8 +138,10 @@
             ></path></svg
           >
         </div>
-        <h3 class="mb-2 text-xl font-bold dark:text-text">Enterprise Design</h3>
-        <p class="text-gray-500 dark:text-gray-400">
+        <h3 class="mb-2 text-xl font-bold dark:text-text" data-aos="zoom-in">
+          Enterprise Design
+        </h3>
+        <p class="text-textDark dark:text-textDark" data-aos="zoom-in">
           Craft beautiful, delightful experiences for both marketing and product
           with real cross-company collaboration.
         </p>
@@ -130,9 +149,11 @@
       <div>
         <div
           class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900"
+          data-aos="zoom-in"
         >
           <svg
-            class="w-5 h-5 text-primary-600 lg:w-6 lg:h-6 dark:text-primary-300"
+            class="w-5 h-5 text-primary-600 lg:w-6 lg:h-6 dark:text-text"
+            data-aos="zoom-in"
             fill="currentColor"
             viewBox="0 0 20 20"
             xmlns="http://www.w3.org/2000/svg"
@@ -143,8 +164,10 @@
             ></path></svg
           >
         </div>
-        <h3 class="mb-2 text-xl font-bold dark:text-text">Operations</h3>
-        <p class="text-gray-500 dark:text-gray-400">
+        <h3 class="mb-2 text-xl font-bold dark:text-text" data-aos="zoom-in">
+          Operations
+        </h3>
+        <p class="text-textDark dark:text-textDark" data-aos="zoom-in">
           Keep your company’s lights on with customizable, iterative, and
           structured workflows built for all efficient teams and individual.
         </p>

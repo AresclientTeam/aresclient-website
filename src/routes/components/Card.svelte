@@ -4,12 +4,14 @@
 </script>
 
 <a
-  class="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700"
+  class="block bg-white border border-primary rounded-lg shadow hover:bg-gray-100 dark:bg-backgroundSecondary dark:border-primary dark:hover:bg-secondary"
 >
   <h5
-    class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+    class="mx-2 my-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-text"
   >
     {title}
   </h5>
-  <p class="font-normal text-gray-700 dark:text-gray-400">{description}</p>
+  <p class="mx-2 my-2 font-normal text-gray-700 dark:text-gray-400">
+    {description}
+  </p>
 </a>

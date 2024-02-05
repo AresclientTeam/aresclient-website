@@ -6,12 +6,9 @@
   import AOS from "aos";
 
   import { onMount } from "svelte";
-  console.log("AOS imported");
 
   onMount(() => {
-    console.log("AOS intializing");
     AOS.init();
-    console.log("AOS initialized");
   });
 </script>
 
