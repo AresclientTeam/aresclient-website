@@ -9,11 +9,11 @@
 <Navbar />
 
 <LearnMore />
-<hr />
+<hr class="bg-text" />
 
 <Features />
 
-<hr />
+<hr class="bg-text" />
 
 <CardGrid />
 
