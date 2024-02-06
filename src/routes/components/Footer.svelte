@@ -4,8 +4,10 @@
   >
     <span
       class="text-sm text-text flex justify-center sm:text-xs dark:text-text"
-      >© 2024 <a href="https://flowbite.com/" class="hover:underline"
-        >Ares Client™</a
+    >
+      <span class="pr-2">© 2024 </span>
+      <a href="https://flowbite.com/" class="hover:underline">
+        Ares Client™</a
       >. All Rights Reserved.
     </span>
     <ul
