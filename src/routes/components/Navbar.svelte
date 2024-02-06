@@ -1,94 +1,78 @@
 <script>
-  import ThemeSwitch from "./ThemeSwitch.svelte";
+  import {
+    NavBrand,
+    NavHamburger,
+    NavLi,
+    NavUl,
+    Navbar,
+  } from "flowbite-svelte";
+  import MediaQuery from "./MediaQuery.svelte";
 </script>
 
-<nav class="bg-white border-background dark:bg-background">
-  <div
-    class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4"
-  >
+<Navbar class="bg-background dark:bg-background">
+  <NavBrand href="/">
+    <img src="logo_white.png" class="me-3 h-6 sm:h-9" alt="Ares Logo" />
+    <span
+      class="self-center whitespace-nowrap text-xl font-semibold dark:text-text"
+      >Ares</span
+    >
+  </NavBrand>
+  <div class="flex md:order-2 dark:text-text">
     <a
-      href="https://flowbite.com/"
-      class="flex items-center space-x-3 rtl:space-x-reverse"
+      href="/download"
+      class="inline-flex items-center justify-center px-5 py-2 text-base font-medium text-center text-text border border-primary rounded-lg hover:bg-text focus:ring-4 focus:ring-text dark:text-text dark:border-secondary dark:hover:bg-secondary dark:focus:ring-accent"
+      data-aos="zoom-in"
     >
-      <img src="logo_white.png" class="h-8" alt="Flowbite Logo" />
-      <span
-        class="text-xl font-bold tracking-tight text-gray-900 dark:text-text"
-        >Ares</span
-      >
+      Download
     </a>
-    <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
-      <button
-        type="button"
-        class="sm:visible invisible text-text bg-secondary hover:bg-accent ease-in-out transition-all focus:ring-4 focus:outline-none focus:accent font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-background-600 dark:hover:bg-background-700 dark:focus:accent"
-        >Download</button
-      >
-      <ThemeSwitch />
-
-      <button
-        data-collapse-toggle="navbar-cta"
-        type="button"
-        class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-background dark:text-gray-400 dark:hover:bg-background dark:focus:ring-gray-600"
-        aria-controls="navbar-cta"
-        aria-expanded="false"
-      >
-        <ThemeSwitch />
-
-        <span class="sr-only">Open main menu</span>
-        <svg
-          class="w-5 h-5"
-          aria-hidden="true"
-          xmlns="http://www.w3.org/2000/svg"
-          fill="none"
-          viewBox="0 0 17 14"
-        >
-          <ThemeSwitch />
-
-          <path
-            stroke="currentColor"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
-            d="M1 1h15M1 7h15M1 13h15"
-          />
-        </svg>
-      </button>
-    </div>
-    <div
-      class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1"
-      id="navbar-cta"
-    >
-      <ul
-        class="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-background md:dark:border-background dark:border-background"
-      >
-        <li>
-          <a
-            href="#"
-            class="block py-2 px-3 md:p-0 text-text bg-background rounded md:bg-transparent md:text-accent md:dark:text-accent"
-            aria-current="page">Home</a
-          >
-        </li>
-        <li>
-          <a
-            href="#"
-            class="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-accent md:dark:hover:text-accent dark:text-text dark:hover:bg-background dark:hover:text-text md:dark:hover:bg-transparent dark:border-background"
-            >About</a
-          >
-        </li>
-        <li>
-          <a
-            href="#"
-            class="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-accent md:dark:hover:text-accent dark:text-text dark:hover:bg-background dark:hover:text-text md:dark:hover:bg-transparent dark:border-background"
-            >Services</a
-          >
-        </li>
-        <li>
-          <a
-            href="#"
-            class="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-accent md:dark:hover:text-accent dark:text-text dark:hover:bg-background dark:hover:text-text md:dark:hover:bg-transparent dark:border-background"
-            >Contact</a
-          >
-        </li>
-      </ul>
-    </div>
+    <NavHamburger menuClass="dark:hover-backgroundSecondary" />
   </div>
-</nav>
+  <MediaQuery query="(min-width: 640px)" let:matches>
+    {#if matches}
+      <NavUl class="order-1">
+        <NavLi
+          nonActiveClass="text-textDark hover:text-text"
+          href="/"
+          active={true}>Home</NavLi
+        >
+        <NavLi nonActiveClass="text-textDark hover:text-text" href="/about"
+          >About</NavLi
+        >
+        <NavLi
+          nonActiveClass="text-textDark hover:text-text"
+          href="/docs/components/navbar">Navbar</NavLi
+        >
+        <NavLi nonActiveClass="text-textDark hover:text-text" href="/pricing"
+          >Pricing</NavLi
+        >
+        <NavLi nonActiveClass="text-textDark hover:text-text" href="/contact"
+          >Contact</NavLi
+        >
+      </NavUl>
+    {:else}
+      <NavUl
+        class="order-1"
+        ulClass="dark:bg-backgroundSecondary dark:border-background"
+      >
+        <NavLi
+          nonActiveClass="text-textDark hover:text-text"
+          href="/"
+          active={true}>Home</NavLi
+        >
+        <NavLi nonActiveClass="text-textDark hover:text-text" href="/about"
+          >About</NavLi
+        >
+        <NavLi
+          nonActiveClass="text-textDark hover:text-text"
+          href="/docs/components/navbar">Navbar</NavLi
+        >
+        <NavLi nonActiveClass="text-textDark hover:text-text" href="/pricing"
+          >Pricing</NavLi
+        >
+        <NavLi nonActiveClass="text-textDark hover:text-text" href="/contact"
+          >Contact</NavLi
+        >
+      </NavUl>
+    {/if}
+  </MediaQuery>
+</Navbar>

@@ -2,7 +2,8 @@
   <div
     class="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between"
   >
-    <span class="text-sm text-text sm:text-center sm:text-xs dark:text-text"
+    <span
+      class="text-sm text-text flex justify-center sm:text-xs dark:text-text"
       >© 2024 <a href="https://flowbite.com/" class="hover:underline"
         >Ares Client™</a
       >. All Rights Reserved.
