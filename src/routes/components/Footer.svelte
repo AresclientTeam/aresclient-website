@@ -11,7 +11,7 @@
       >. All Rights Reserved.
     </span>
     <ul
-      class="flex flex-wrap items-center mt-3 ml-6 text-sm font-medium text-primary dark:text-primary sm:mt-0"
+      class="flex flex-wrap items-center mt-3 md:ml-6 text-sm font-medium text-primary dark:text-primary sm:mt-0"
     >
       <li>
         <a href="#" class="hover:underline me-4 md:me-6">About</a>
